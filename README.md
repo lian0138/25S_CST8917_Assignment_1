@@ -71,7 +71,7 @@ By combining Blob Storage, Durable Functions, and SQL Database, this design prov
 +-----------------+   +----------------------+
              |                |
              +----------------+
-                            |
+                     v
    +--------------------------+
    |  Azure SQL Database      |
    |(stores image metadata)   |
