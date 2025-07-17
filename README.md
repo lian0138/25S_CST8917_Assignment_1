@@ -6,9 +6,9 @@
 
 ---
 
-## Demo Video
+## Upload to Video
 
-- [Demo Video Link](https://www.youtube.com/watch?v=xgr7IPqsqP8)
+- [https://www.youtube.com/watch?v=xgr7IPqsqP8](https://www.youtube.com/watch?v=xgr7IPqsqP8)
 
 ---
 
