@@ -1,4 +1,4 @@
-```markdown
+
 # CST8917 Assignment 1: Durable Workflow for Image Metadata Processing
 
 **Due:** July 19, 2025  
@@ -62,20 +62,20 @@ By combining Blob Storage, Durable Functions, and SQL Database, this design prov
 | Durable Orchestrator        |
 |  (controls processing flow) |
 +-----------------------------+
-       |                |
-       v                v
-+----------------+   +----------------------+
-| ExtractMetadata|   | StoreMetadata        |
-| Activity       |   | Activity             |
-| (extract fields)|   | (write to SQL table)|
-+----------------+   +----------------------+
-             |                ^
+       |                    |
+       v                    v
++-----------------+   +----------------------+
+| ExtractMetadata |   | StoreMetadata        |
+| Activity        |   | Activity             |
+| (extract fields)|   | (write to SQL table) |
++-----------------+   +----------------------+
+             |                |
              +----------------+
-                      |
-            +--------------------------+
-            |  Azure SQL Database      |
-            |(stores image metadata)   |
-            +--------------------------+
+                            |
+   +--------------------------+
+   |  Azure SQL Database      |
+   |(stores image metadata)   |
+   +--------------------------+
 ```
 
 ---
@@ -109,7 +109,7 @@ Each function is organized into its own folder for deployment as an Azure Functi
 
 ---
 
-**Author:** XuHui Liang  
+**Author:** [Your Name]  
 **Course:** CST8917  
 **Date:** July 2025
 ```
