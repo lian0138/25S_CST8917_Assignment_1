@@ -101,15 +101,7 @@ Each function is organized into its own folder for deployment as an Azure Functi
 
 ---
 
-## References
-
-- [Azure Durable Functions (Python)](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-python-overview)
-- [Azure Functions Blob Trigger](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-trigger)
-- [Python and Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-python)
-
----
-
-**Author:** [Your Name]  
+**Author:** XuHuiLiang
 **Course:** CST8917  
 **Date:** July 2025
 ```
